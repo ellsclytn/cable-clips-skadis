@@ -1,12 +1,15 @@
 $fn = 64;
 
-// Custom
+// Cable diameter. Usually a good idea to add 0.2 mm on top.
 cable_diameter = 3.2;
-orientation = "vertical"; // horizontal, vertical
-cable_side = "right"; // left, right
+// Cable direction. "horizontal" or "vertical"
+orientation = "vertical";
+// Side of cable clip relative to pegboard hole. "left" or "right"
+cable_side = "right";
+// Pegboard thickness. Usually 5mm
 board_thickness = 5;
 
-// Hopefully constants
+/* [Hidden] */
 cable_radius = cable_diameter / 2;
 board_hook_corner_radius = 2.5;
 board_hook_tip_length = 12;
